@@ -1,0 +1,82 @@
+#intro {
+  min-height: 100vh;
+  text-align: center;
+  background: linear-gradient(#a9cbf5 0%, #2778ae 100%);
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Schibsted Grotesk", sans-serif;
+}
+
+.img-perfil {
+  /* width: 200px; */
+  border-radius: 50%;
+  margin-top: 10%;
+}
+
+.nome {
+  font-size: 35px;
+  font-family: "Tilt Prism", cursive;
+}
+
+.titulo {
+  font-size: 30px;
+  color: #2778ae;
+}
+
+.line {
+  width: 100px;
+  height: 6px;
+  background-color: #2778ae;
+  margin: 10px auto;
+}
+
+#sobre p {
+  margin: auto 30px;
+}
+
+#sobre {
+  text-align: center;
+}
+
+.title {
+  color: #2778ae;
+  font-size: 30px;
+}
+
+ul {
+  list-style: none;
+  position: fixed;
+  cursor: pointer;
+  z-index: 10;
+  background-color: rgba(255, 255, 255, 0.9);
+  margin: 0;
+  width: 100%;
+}
+
+.item {
+  float: left;
+  padding: 5px 10px;
+  font-size: 20px;
+}
+
+.logo {
+  height: 100px;
+}
+
+.artigo {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.artigo:hover {
+  background-color: darkgrey;
+}
+
+.item a {
+  color: black;
+  text-decoration: none;
+}
